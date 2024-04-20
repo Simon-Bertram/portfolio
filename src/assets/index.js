@@ -1,5 +1,4 @@
 import github from "./github.png"
-
 import css from "./tech/css.png"
 import docker from "./tech/docker.png"
 import git from "./tech/git.png"

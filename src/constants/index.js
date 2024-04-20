@@ -1,3 +1,17 @@
+import {
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  docker,
+} from "../assets"
+
 export const navLinks = [
   {
     id: "about",
@@ -59,3 +73,5 @@ const technologies = [
     icon: docker,
   },
 ]
+
+export { technologies }

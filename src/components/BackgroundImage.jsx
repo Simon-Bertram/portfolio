@@ -1,6 +1,8 @@
 import heroBackgroundPNG from "../assets/herobg.png"
 import heroBackgroundWEBP from "../assets/herobg.webp"
 
+import PropTypes from "prop-types"
+
 const BackgroundImage = ({ children }) => {
   return (
     <div className="bg-cover bg-center h-screen">
@@ -15,6 +17,10 @@ const BackgroundImage = ({ children }) => {
       {children}
     </div>
   )
+}
+
+BackgroundImage.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default BackgroundImage

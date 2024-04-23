@@ -74,4 +74,29 @@ const technologies = [
   },
 ]
 
-export { technologies }
+const projects = [
+  {
+    id: 1,
+    title: "Cornwall Coffee Finder",
+    description:
+      "Website to find the best independent coffee shops in Cornwall. Built with React JS and Tailwind",
+    image: "https://via.placeholder.com/150",
+    technologies: ["React JS", "Tailwind CSS"],
+  },
+  {
+    id: 2,
+    title: "MERN Estate",
+    description: "A house listing website built with the MERN stack.",
+    image: "https://via.placeholder.com/150",
+    technologies: ["MongoDB", "Express", "React JS", "Node JS", "Tailwind CSS"],
+  },
+  {
+    id: 3,
+    title: "Project 3",
+    description: "This is a project description.",
+    image: "https://via.placeholder.com/150",
+    technologies: ["React JS", "Tailwind CSS", "Node JS"],
+  },
+]
+
+export { technologies, projects }

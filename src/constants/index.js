@@ -1,4 +1,7 @@
 import {
+  web,
+  backend,
+  creator,
   javascript,
   typescript,
   html,
@@ -74,6 +77,21 @@ const technologies = [
   },
 ]
 
+const services = [
+  {
+    title: "Web Developer",
+    icon: web,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Content Creator",
+    icon: creator,
+  },
+]
+
 const projects = [
   {
     id: 1,
@@ -99,4 +117,46 @@ const projects = [
   },
 ]
 
-export { technologies, projects }
+const experience = [
+  {
+    title: "Dog Trainer Website",
+    company_name: "Freelance",
+    date: "2019 - 2020",
+    points: [
+      "Website for a dog trainer to showcase their services.",
+      "Responsive website built using Bootstrap",
+      "Worked with clients to deliver the best possible product.",
+    ],
+  },
+  {
+    title: "Joined Codecademy",
+    date: "2019 - current",
+    points: [
+      "Joined Codecademy to learn web development.",
+      "Enroled on Frontend Developer career path.",
+      "Also working on Computer Science path.",
+    ],
+  },
+  {
+    title: "E-commerce Website",
+    company_name: "Freelance",
+    date: "2020 - 2021",
+    points: [
+      "E-commerce website for a small business.",
+      "Built with React JS and Tailwind CSS",
+      "Integrated payment gateway and order tracking.",
+    ],
+  },
+  {
+    title: "Portfolio Website",
+    company_name: "Freelance",
+    date: "2021 - Present",
+    points: [
+      "Portfolio website to showcase my work.",
+      "Built with React JS and Tailwind CSS",
+      "Integrated animations and transitions.",
+    ],
+  },
+]
+
+export { technologies, projects, services, experience }

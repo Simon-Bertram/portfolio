@@ -12,9 +12,11 @@ function App() {
           </header>
           <Hero />
         </BackgroundImage>
-
+        <About />
+        <Experience />
         <Routes>
           <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/tech" element={<Tech />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
